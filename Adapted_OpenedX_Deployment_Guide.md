@@ -1,10 +1,5 @@
 # Open edX Deployment Instructions 
 
-## Table of Contents
-1. Clone the repo: [link](#clone-the-repo)
-2. Deploy to Azure Subscription using the script: [link](#deploy-to-azure-subscription-using-the-script)
-3. Configure the tool: [link](#configure-the-tool)
-
 ## Prerequisites
 To begin, you will need:
 - Open edX 
