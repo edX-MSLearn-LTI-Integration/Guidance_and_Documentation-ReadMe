@@ -1,11 +1,11 @@
 # Microsoft Learn LTI Support for Open edX Project 
-# Overview
+## Overview
 Microsoft (MS) has become a major provider of educational resources. Through their **Learn LTI application**, they have provided a way to integrate these materials into third-party Learning Management Systems (LMS). One major open-source LMS, Open edX, currently does not support Learn LTI. To address this issue, MS has initiated a project under the UCL Industry Exchange Network Program. This project successfully isolated the root causes for this incompatibility through actively engaging with the open-source community, and produced three solutions: first, an adaptation of Learn LTI to no longer require certain parameters that are not sent by Open edX. Second, a custom image of Open edX that can send these parameters. Third, an Azure Resource Manager template for one-click deployment of edX to Azure. All solutions were evaluated based on unit as well as integration testing and deemed to be successful by the core developers of the systems. Although the solutions effectively address the underlying issue, they can lead to an inconsistent UI/UX for different users. Based on this limitation, one primary direction for future development of Open edX exists: to refine the sign-up logic to capture additional user information. Moreover, three main takeaways of relevance for open-source developers were identified. For one, even if extensive documentation exists, some knowledge resides exclusively with core developers of the open-source project. Additionally, software that is developed based on interoperability standards should function based on as few parameters from external systems as possible. Finally, finding the root cause for a bug may require significantly more resources than the fix itself.
 
 *[Taken from: X. Zhuang, Y. Fan, Y. Zhang, Z. Lin, and L. Sieg. (2021) Enabling the integration of microsoft learn with open edx.University College London.]*
 
-# Project Presentation (Video)
+## Project Presentation (Video)
 [![MS Learn Support for edX Presentation](http://img.youtube.com/vi/k4RG16jq_uY/0.jpg)](http://www.youtube.com/watch?v=k4RG16jq_uY "Video Title")
 
-# Tutorial "Building the Project Solutions" (Video)
+## Tutorial "Building the Project Solutions" (Video)
 [![MS Learn Support for edX Solutions Tutorial](http://img.youtube.com/vi/iISjfBvdDMg/0.jpg)](http://www.youtube.com/watch?v=iISjfBvdDMg "Video Title")
